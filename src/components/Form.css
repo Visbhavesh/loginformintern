@@ -1,0 +1,206 @@
+
+/* Style labels */
+.form-control label {
+  display: block;
+  font-weight: bold;
+}
+.form set{
+   font-size: 38px;
+}
+/* Style input fields */
+.form-control input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Style error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Style the submit button */
+
+
+/* Style the submit button on hover */
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+   background-color: #97adc5;
+  max-width: 800px;
+ height: 400px;
+ margin: 200px 272px 100px  320px;
+padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form header */
+.form-header {
+  font-size: 35px;
+  margin-bottom: 70px;
+  color: #333;
+}
+
+/* Style form controls */
+.form-control {
+  margin-bottom: 20px;
+}
+
+/* Style labels */
+.form-control label {
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Style input fields */
+.form-control input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style error messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Style the submit button */
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  margin: 40px 75px 30px 0px;
+   
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+/* Style the submit button on hover */
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the form footer */
+.form-footer {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  margin-top: 20px;
+}
+
+/* src/components/Form.css */
+
+/* ... Previous CSS rules ... */
+
+/* Style input fields */
+.form-control input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff; /* Background color for input fields */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition on focus */
+  
+    /* Add box shadow on hover and focus */
+    &:hover,
+    &:focus {
+      border-color: #007bff; /* Border color on hover and focus */
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Box shadow on hover and focus */
+    }
+  
+    /* Add a subtle box shadow on invalid input fields */
+    &:invalid {
+      box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  /* Style placeholder text */
+  .form-control input::placeholder {
+    color: #aaa; /* Placeholder text color */
+  }
+  
+  /* Style the select dropdown */
+  .form-control select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  
+    &:hover,
+    &:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+  }
+
+  /* src/components/Form.css */
+
+/* ... Previous CSS rules ... */
+
+/* Adjusted input field styles with improved margins and padding */
+.form-control input {
+    width: 100%;
+    padding: 12px; /* Increase padding for better readability */
+    margin: 10px 0; /* Adjust vertical margin for spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  
+    &:hover,
+    &:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+  
+    &:invalid {
+      box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+    }
+  }
+  
+  /* Style placeholder text */
+  .form-control input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Style the select dropdown */
+  .form-control select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0; /* Adjust vertical margin for spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  
+    &:hover,
+    &:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+  }
+  
